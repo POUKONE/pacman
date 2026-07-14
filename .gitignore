@@ -7,3 +7,8 @@ PacMan.jar
 
 # Sauvegarde locale du meilleur score
 bestScore.txt
+
+# Version portable autonome (runtime Java inclus, ~40 Mo) : à publier en
+# Release GitHub plutôt qu'en commit
+Pac-Man-portable/
+Pac-Man-portable.zip
