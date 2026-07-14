@@ -1,0 +1,9 @@
+# Artefacts de compilation (régénérés par build.bat)
+bin/
+*.class
+
+# Jar généré (régénérable via build.bat, à publier en Release plutôt qu'en commit)
+PacMan.jar
+
+# Sauvegarde locale du meilleur score
+bestScore.txt
