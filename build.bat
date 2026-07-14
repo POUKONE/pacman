@@ -34,6 +34,9 @@ if errorlevel 1 (
     exit /b 1
 )
 
+echo Copie des images dans bin...
+copy /y src\*.png bin\ >nul
+
 echo Reconstruction de %JARFILE%...
 pushd bin
 "%JARCMD%" cfe ..\%JARFILE% App .

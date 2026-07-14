@@ -103,23 +103,23 @@ public class PacMan extends JPanel implements ActionListener, KeyListener {
     }
 
     private void loadImages() {
-        wallImg = new ImageIcon(getClass().getResource("./wall.png")).getImage();
-        foodImg = new ImageIcon(getClass().getResource("./cherry2.png")).getImage();
-        cherryImg = new ImageIcon(getClass().getResource("./cherry.png")).getImage();
-        pacRightImg = new ImageIcon(getClass().getResource("./pacmanRight.png")).getImage();
-        pacLeftImg = new ImageIcon(getClass().getResource("./pacmanLeft.png")).getImage();
-        pacUpImg = new ImageIcon(getClass().getResource("./pacmanUp.png")).getImage();
-        pacDownImg = new ImageIcon(getClass().getResource("./pacmanDown.png")).getImage();
-        superFruitImg = new ImageIcon(getClass().getResource("./cherry2.png")).getImage();
-        scaredGhostImage = new ImageIcon(getClass().getResource("./scaredGhost.png")).getImage();
+        wallImg = new ImageIcon(getClass().getResource("/wall.png")).getImage();
+        foodImg = new ImageIcon(getClass().getResource("/cherry2.png")).getImage();
+        cherryImg = new ImageIcon(getClass().getResource("/cherry.png")).getImage();
+        pacRightImg = new ImageIcon(getClass().getResource("/pacmanRight.png")).getImage();
+        pacLeftImg = new ImageIcon(getClass().getResource("/pacmanLeft.png")).getImage();
+        pacUpImg = new ImageIcon(getClass().getResource("/pacmanUp.png")).getImage();
+        pacDownImg = new ImageIcon(getClass().getResource("/pacmanDown.png")).getImage();
+        superFruitImg = new ImageIcon(getClass().getResource("/cherry2.png")).getImage();
+        scaredGhostImage = new ImageIcon(getClass().getResource("/scaredGhost.png")).getImage();
 
 
 
     }
-    private Image blueGhostImage = new ImageIcon(getClass().getResource("./blueGhost.png")).getImage();
-    private Image pinkGhostImage = new ImageIcon(getClass().getResource("./pinkGhost.png")).getImage();
-    private Image redGhostImage = new ImageIcon(getClass().getResource("./redGhost.png")).getImage();
-    private Image orangeGhostImage = new ImageIcon(getClass().getResource("./orangeGhost.png")).getImage();
+    private Image blueGhostImage = new ImageIcon(getClass().getResource("/blueGhost.png")).getImage();
+    private Image pinkGhostImage = new ImageIcon(getClass().getResource("/pinkGhost.png")).getImage();
+    private Image redGhostImage = new ImageIcon(getClass().getResource("/redGhost.png")).getImage();
+    private Image orangeGhostImage = new ImageIcon(getClass().getResource("/orangeGhost.png")).getImage();
 
     private Image superFruitImg;
     private Block superFruit = null;
